@@ -11,25 +11,25 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Anna',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Coucou!',
+	greetingAfternoon: 'Wesh,',
+	greetingEvening: 'Hallo,',
+	greetingNight: 'Au lit !',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '58875cc64a5974b1f95f5b2acdf5491f', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'fr', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'at-sign',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Mastodon',
+					link: 'https://rivals.space/home',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'PixelFed',
+					link: 'https://pixelfed.social/i/web',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Kbin',
+					link: 'https://kbin.social/sub',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Tumblr',
+					link: 'https://www.tumblr.com/dashboard',
 				},
 			],
 		},
@@ -161,20 +161,24 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Youtube',
+					link: 'https://www.youtube.com/feed/subscriptions',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Twitch',
+					link: 'https://www.twitch.tv/directory/following',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Tilvids',
+					link: 'https://tilvids.com/home',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Bandcamp',
+					link: 'https://bandcamp.com/',
+				},
+				{
+					name: 'Soundcloud',
+					link: 'https://soundcloud.com/discover',
 				},
 			],
 		},
@@ -183,46 +187,51 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'book-open',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'Médiapart',
+					link: 'https://www.mediapart.fr/',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Les jours',
+					link: 'https://lesjours.fr/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Wallabag',
+					link: 'https://app.wallabag.it/unread/list',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Notion',
+					link: 'https://www.notion.so/Livres-et-lectures-0160e79b52d549bebe48d88b71bbc225',
 				},
+				
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'paperclip',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Good Cloud',
+					link: 'https://use04.thegood.cloud/apps/calendar/timeGridWeek/now',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Médical',
+					link: 'https://www.notion.so/M-dical-0391bdb3141344ca850bd725b1b59eb2',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Banque postale',
+					link: 'https://www.labanquepostale.fr/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'RED by SFR',
+					link: 'https://www.red-by-sfr.fr/mon-espace-client/?casforcetheme=espaceclientred#sfrclicid=EC_mire_Me-Connecter',
+				},
+				{
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 			],
 		},
