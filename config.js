@@ -203,8 +203,8 @@ const CONFIG = {
 					link: 'https://app.wallabag.it/unread/list',
 				},
 				{
-					name: 'Notion',
-					link: 'https://www.notion.so/Livres-et-lectures-0160e79b52d549bebe48d88b71bbc225',
+					name: 'FreshRSS',
+					link: 'https://news.beep.computer/i/',
 				},
 				
 			],
@@ -226,8 +226,8 @@ const CONFIG = {
 					link: 'https://www.labanquepostale.fr/',
 				},
 				{
-					name: 'RED by SFR',
-					link: 'https://www.red-by-sfr.fr/mon-espace-client/?casforcetheme=espaceclientred#sfrclicid=EC_mire_Me-Connecter',
+					name: 'Notion',
+					link: 'https://www.notion.so/Livres-et-lectures-0160e79b52d549bebe48d88b71bbc225',
 				},
 				{
 					name: 'Gmail',
