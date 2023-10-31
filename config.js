@@ -151,7 +151,7 @@ const CONFIG = {
 					link: 'https://kbin.social/sub',
 				},
 				{
-					name: 'cohost:',
+					name: 'cohost !',
 					link: 'https://cohost.org/',
 				},
 			],
