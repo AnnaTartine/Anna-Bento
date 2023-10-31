@@ -151,8 +151,8 @@ const CONFIG = {
 					link: 'https://kbin.social/sub',
 				},
 				{
-					name: 'Tumblr',
-					link: 'https://www.tumblr.com/dashboard',
+					name: 'cohost:',
+					link: 'https://cohost.org/',
 				},
 			],
 		},
