@@ -218,8 +218,8 @@ const CONFIG = {
 					link: 'https://use04.thegood.cloud/apps/calendar/timeGridWeek/now',
 				},
 				{
-					name: 'Médical',
-					link: 'https://www.notion.so/M-dical-0391bdb3141344ca850bd725b1b59eb2',
+					name: 'Faune Grand-Est',
+					link: 'https://www.faune-grandest.org/',
 				},
 				{
 					name: 'Banque postale',
