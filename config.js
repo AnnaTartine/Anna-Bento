@@ -17,17 +17,17 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Coucou!',
-	greetingAfternoon: 'Wesh,',
-	greetingEvening: 'Hallo,',
-	greetingNight: 'Au lit !',
+	greetingMorning: 'Coucou',
+	greetingAfternoon: 'Coucou',
+	greetingEvening: 'Coucou',
+	greetingNight: 'Coucou',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '58875cc64a5974b1f95f5b2acdf5491f', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Dark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'fr', // More languages in https://openweathermap.org/current#multi
 
