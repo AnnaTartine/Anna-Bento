@@ -147,12 +147,12 @@ const CONFIG = {
 					link: 'https://pixelfed.social/i/web',
 				},
 				{
-					name: 'Kbin',
-					link: 'https://kbin.social/sub',
+					name: 'tumblr',
+					link: 'https://www.tumblr.com/',
 				},
 				{
-					name: 'cohost !',
-					link: 'https://cohost.org/',
+					name: 'Instagram',
+					link: 'https://www.instagram.com/',
 				},
 			],
 		},
