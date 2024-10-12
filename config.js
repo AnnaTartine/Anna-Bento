@@ -23,11 +23,11 @@ const CONFIG = {
 	greetingNight: 'Au lit !',
 
 	// Layout
-	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '58875cc64a5974b1f95f5b2acdf5491f', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'fr', // More languages in https://openweathermap.org/current#multi
 
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Mastodon',
+			icon: 'tent-tree',
+			link: 'https://rivals.space/home',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Pexelfed',
+			icon: 'bird',
+			link: 'https://pixelfed.social/i/web',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/' ,
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/feed/subscriptions',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Cloud',
+			icon: 'cloud',
+			link: 'https://use04.thegood.cloud/apps/files/',
 		},
 	],
 
@@ -135,46 +135,47 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'at-sign',
+			icon: 'boom-box',
 			id: '1',
 			links: [
-				{
-					name: 'Mastodon',
-					link: 'https://rivals.space/home',
-				},
-				{
-					name: 'PixelFed',
-					link: 'https://pixelfed.social/i/web',
-				},
 				{
 					name: 'tumblr',
 					link: 'https://www.tumblr.com/',
 				},
 				{
-					name: 'Instagram',
-					link: 'https://www.instagram.com/',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Youtube',
-					link: 'https://www.youtube.com/feed/subscriptions',
-				},
-				{
-					name: 'Twitch',
-					link: 'https://www.twitch.tv/directory/following',
-				},
-				{
-					name: 'Tilvids',
-					link: 'https://tilvids.com/home',
+					name: 'cohost!',
+					link: 'https://cohost.org/',
 				},
 				{
 					name: 'Bandcamp',
 					link: 'https://bandcamp.com/',
+				},
+				{
+					name: 'Soundcloud',
+					link: 'https://soundcloud.com/discover',
+				},
+				
+			],
+		},
+		{
+			icon: 'binoculars',
+			id: '2',
+			links: [
+				{
+					name: 'Faune Grand-Est',
+					link: 'https://www.faune-grandest.org/',
+				},
+				{
+					name: 'Notion',
+					link: 'https://www.notion.so/Livres-et-lectures-0160e79b52d549bebe48d88b71bbc225',
+				},
+				{
+					name: 'Wallabag',
+					link: 'https://app.wallabag.it/unread/list',
+				},
+				{
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 				{
 					name: 'Soundcloud',
