@@ -59,26 +59,26 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Pexelfed',
+			name: 'Pixelfed',
 			icon: 'bird',
 			link: 'https://pixelfed.social/i/web',
 		},
 		{
 			id: '3',
 			name: 'Instagram',
-			icon: 'instagram',
+			icon: 'camera',
 			link: 'https://www.instagram.com/',
 		},
 		{
 			id: '4',
 			name: 'Twitch',
-			icon: 'twitch',
+			icon: 'tv',
 			link: 'https://www.twitch.tv/' ,
 		},
 		{
 			id: '5',
 			name: 'Youtube',
-			icon: 'youtube',
+			icon: 'monitor-play',
 			link: 'https://www.youtube.com/feed/subscriptions',
 		},
 		{
@@ -135,51 +135,47 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'boom-box',
+			icon: 'notebook',
 			id: '1',
 			links: [
 				{
-					name: 'tumblr',
-					link: 'https://www.tumblr.com/',
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 				{
-					name: 'cohost!',
-					link: 'https://cohost.org/',
-				},
-				{
-					name: 'Bandcamp',
-					link: 'https://bandcamp.com/',
-				},
-				{
-					name: 'Soundcloud',
-					link: 'https://soundcloud.com/discover',
-				},
-				
-			],
-		},
-		{
-			icon: 'binoculars',
-			id: '2',
-			links: [
-				{
-					name: 'Faune Grand-Est',
-					link: 'https://www.faune-grandest.org/',
-				},
-				{
-					name: 'Notion',
-					link: 'https://www.notion.so/Livres-et-lectures-0160e79b52d549bebe48d88b71bbc225',
+					name: 'FreshRSS!',
+					link: 'https://rss.hostux.net/i/',
 				},
 				{
 					name: 'Wallabag',
 					link: 'https://app.wallabag.it/unread/list',
 				},
 				{
-					name: 'Gmail',
-					link: 'https://mail.google.com/mail/u/0/#inbox',
+					name: 'Crisco',
+					link: 'https://crisco4.unicaen.fr/des/',
+				},
+				
+			],
+		},
+		{
+			icon: 'cassette-tape',
+			id: '2',
+			links: [
+				{
+					name: 'NTS',
+					link: 'https://www.nts.live/',
 				},
 				{
 					name: 'Soundcloud',
 					link: 'https://soundcloud.com/discover',
+				},
+				{
+					name: 'Bandcamp',
+					link: 'https://bandcamp.com/',
+				},
+				{
+					name: 'Libre.fm',
+					link: 'https://libre.fm/user/AnnaTartine',
 				},
 			],
 		},
