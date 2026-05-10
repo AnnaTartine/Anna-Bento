@@ -143,7 +143,7 @@ const CONFIG = {
 					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 				{
-					name: 'FreshRSS!',
+					name: 'FreshRSS',
 					link: 'https://rss.hostux.net/i/',
 				},
 				{
