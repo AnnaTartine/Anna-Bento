@@ -174,8 +174,8 @@ const CONFIG = {
 					link: 'https://bandcamp.com/',
 				},
 				{
-					name: 'Libre.fm',
-					link: 'https://libre.fm/user/AnnaTartine',
+					name: 'Nintendo Music',
+					link: 'https://music.nintendo.com/fr-FR/',
 				},
 			],
 		},
