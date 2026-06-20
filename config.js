@@ -55,7 +55,7 @@ const CONFIG = {
 			id: '1',
 			name: 'Mastodon',
 			icon: 'tent-tree',
-			link: 'https://rivals.space/home',
+			link: 'https://phanpy.social/#/',
 		},
 		{
 			id: '2',
